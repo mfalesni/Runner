@@ -20,7 +20,7 @@ setup(
     license="GPLv2",
     keywords="run command bash shell",
     url="https://github.com/mfalesni/Run",
-    packages=["Run"],
+    packages=["Runner"],
     long_description_read=read("README.md"),
     classifiers=[
         "Topic :: Utilities",
