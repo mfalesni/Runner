@@ -19,7 +19,7 @@ setup(
     description="Simple command runner",
     license="GPLv2",
     keywords="run command bash shell",
-    url="http://python.falesnik.net/Run",
+    url="https://github.com/mfalesni/Run",
     packages=["Run"],
     long_description_read=read("README.md"),
     classifiers=[
