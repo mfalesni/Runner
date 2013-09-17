@@ -8,12 +8,10 @@ from setuptools import setup
 import os
 
 
-def read(fname):
-    return open(os.path.join(os.path.dirname(__file__), fname)).read()
 
 setup(
     name="Runner",
-    version="1.0",
+    version="1.1",
     author="Milan Falešník",
     author_email="milan@falesnik.net",
     description="Simple command runner",
@@ -21,7 +19,6 @@ setup(
     keywords="run command bash shell",
     url="https://github.com/mfalesni/Run",
     packages=["Runner"],
-    long_description_read=read("README.md"),
     classifiers=[
         "Topic :: Utilities",
         "License :: OSI Approved :: GNU General Public License v2 (GPLv2)",
