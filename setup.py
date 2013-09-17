@@ -23,6 +23,8 @@ setup(
     packages=["Run"],
     long_description_read=read("README.md"),
     classifiers=[
-        "Topic :: Utilities"
+        "Topic :: Utilities",
+        "License :: OSI Approved :: GNU General Public License v2 (GPLv2)",
+        "Programming Language :: Unix Shell"
     ]
 )
