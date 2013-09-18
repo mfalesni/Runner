@@ -9,8 +9,8 @@ import os
 
 
 setup(
-    name="Runner_pytest",
-    version="1.0",
+    name="Runner-pytest",
+    version="1.0.1",
     author="Milan Falešník",
     author_email="milan@falesnik.net",
     description="Simple command runner - fixture provider for py.test",

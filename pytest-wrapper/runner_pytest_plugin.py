@@ -1,7 +1,7 @@
 #!/usr/bin/env python2
 # -*- encoding: utf-8 -*-
 
-__version__ = "1.0"
+__version__ = "1.0.1"
 
 from Runner import Run as _Run
 import pytest
