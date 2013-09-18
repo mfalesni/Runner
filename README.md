@@ -5,8 +5,7 @@ Simple and easy-to-use runner for Python scripts
 
 Usage
 =====
-* <code>python setup.py build</code>
-* <code>sudo python setup.py install</code>
+* <code>pip install Runner</code>
 And then:
 
 <pre style='color:#000000;background:#ffffff;'><html><body style='color:#000000; background:#ffffff; '><pre>
@@ -46,3 +45,8 @@ Type <span style='color:#0000e6; '>"help"</span><span style='color:#808030; '>,<
 
 
 And that's it.
+
+py.test extension:
+==================
+
+If you install <code>Runner-pytest</code> package, you will be able to use the fixture named <code>Run</code> in py.test environment.
