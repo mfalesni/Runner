@@ -102,4 +102,23 @@ class Run(object):
 
         :returns: Run() instance with resulting data
         """
-        return Run.command(["bash", "-c", script_body], stdin=stdin)
+        return cls.command(["bash", "-c", script_body], stdin=stdin)
+
+    @classmethod
+    def python(cls, script_body, stdin=None):
+        """ Uses Run.command(...) to open a Python interpreter and feed it with script
+            from string ``script_body``.
+
+        :returns: Run() instance with resulting data
+        """
+        return cls.command(["python", "-c", script_body], stdin=stdin)
+
+    @classmethod
+    def ruby(cls, script_body, stdin=None):
+        """ Uses Run.command(...) to open a Ruby interpreter and feed it with script
+            from string ``script_body``.
+
+        :returns: Run() instance with resulting data
+        """
+        return cls.command(["ruby", "-e", script_body], stdin=stdin)
+
