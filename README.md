@@ -8,7 +8,7 @@ Usage
 * <code>pip install Runner</code>
 And then:
 
-<pre>
+    ```
     Python 2.7.4 (default, Apr 19 2013, 18:28:01) 
     [GCC 4.7.3] on linux2
     Type "help", "copyright", "credits" or "license" for more information.
@@ -40,8 +40,8 @@ And then:
     True
     >>> last_one.stdout
     'root:x:0:0:root:/root:/bin/bash\n'
->>>
-</pre>
+    >>>
+    ```
 
 
 And that's it.
